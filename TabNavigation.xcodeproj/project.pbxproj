@@ -9,12 +9,19 @@
 /* Begin PBXBuildFile section */
 		33F210621B8EA24B00DCF26C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F210611B8EA24B00DCF26C /* main.m */; };
 		33F210651B8EA24B00DCF26C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F210641B8EA24B00DCF26C /* AppDelegate.m */; };
-		33F210681B8EA24B00DCF26C /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F210671B8EA24B00DCF26C /* FirstViewController.m */; };
-		33F2106B1B8EA24B00DCF26C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F2106A1B8EA24B00DCF26C /* SecondViewController.m */; };
 		33F2106E1B8EA24B00DCF26C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33F2106C1B8EA24B00DCF26C /* Main.storyboard */; };
 		33F210701B8EA24B00DCF26C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33F2106F1B8EA24B00DCF26C /* Images.xcassets */; };
 		33F210731B8EA24B00DCF26C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33F210711B8EA24B00DCF26C /* LaunchScreen.xib */; };
 		33F2107F1B8EA24B00DCF26C /* TabNavigationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F2107E1B8EA24B00DCF26C /* TabNavigationTests.m */; };
+		33F2108A1B8EA3F500DCF26C /* HeiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F210891B8EA3F500DCF26C /* HeiViewController.m */; };
+		33F2108D1B8EA42300DCF26C /* JiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F2108C1B8EA42300DCF26C /* JiViewController.m */; };
+		33F210901B8EA43700DCF26C /* LiaoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F2108F1B8EA43700DCF26C /* LiaoViewController.m */; };
+		33F210981B8EA46F00DCF26C /* hei.png in Resources */ = {isa = PBXBuildFile; fileRef = 33F210921B8EA46F00DCF26C /* hei.png */; };
+		33F210991B8EA46F00DCF26C /* hei@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33F210931B8EA46F00DCF26C /* hei@2x.png */; };
+		33F2109A1B8EA46F00DCF26C /* Ji.png in Resources */ = {isa = PBXBuildFile; fileRef = 33F210941B8EA46F00DCF26C /* Ji.png */; };
+		33F2109B1B8EA46F00DCF26C /* Ji@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33F210951B8EA46F00DCF26C /* Ji@2x.png */; };
+		33F2109C1B8EA46F00DCF26C /* Liao.png in Resources */ = {isa = PBXBuildFile; fileRef = 33F210961B8EA46F00DCF26C /* Liao.png */; };
+		33F2109D1B8EA46F00DCF26C /* Liao@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33F210971B8EA46F00DCF26C /* Liao@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,16 +40,24 @@
 		33F210611B8EA24B00DCF26C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		33F210631B8EA24B00DCF26C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		33F210641B8EA24B00DCF26C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		33F210661B8EA24B00DCF26C /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		33F210671B8EA24B00DCF26C /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		33F210691B8EA24B00DCF26C /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		33F2106A1B8EA24B00DCF26C /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		33F2106D1B8EA24B00DCF26C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		33F2106F1B8EA24B00DCF26C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		33F210721B8EA24B00DCF26C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		33F210781B8EA24B00DCF26C /* TabNavigationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabNavigationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33F2107D1B8EA24B00DCF26C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		33F2107E1B8EA24B00DCF26C /* TabNavigationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabNavigationTests.m; sourceTree = "<group>"; };
+		33F210881B8EA3F500DCF26C /* HeiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeiViewController.h; sourceTree = "<group>"; };
+		33F210891B8EA3F500DCF26C /* HeiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeiViewController.m; sourceTree = "<group>"; };
+		33F2108B1B8EA42300DCF26C /* JiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JiViewController.h; sourceTree = "<group>"; };
+		33F2108C1B8EA42300DCF26C /* JiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JiViewController.m; sourceTree = "<group>"; };
+		33F2108E1B8EA43700DCF26C /* LiaoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiaoViewController.h; sourceTree = "<group>"; };
+		33F2108F1B8EA43700DCF26C /* LiaoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiaoViewController.m; sourceTree = "<group>"; };
+		33F210921B8EA46F00DCF26C /* hei.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hei.png; sourceTree = "<group>"; };
+		33F210931B8EA46F00DCF26C /* hei@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hei@2x.png"; sourceTree = "<group>"; };
+		33F210941B8EA46F00DCF26C /* Ji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ji.png; sourceTree = "<group>"; };
+		33F210951B8EA46F00DCF26C /* Ji@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ji@2x.png"; sourceTree = "<group>"; };
+		33F210961B8EA46F00DCF26C /* Liao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Liao.png; sourceTree = "<group>"; };
+		33F210971B8EA46F00DCF26C /* Liao@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Liao@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,14 +101,17 @@
 			children = (
 				33F210631B8EA24B00DCF26C /* AppDelegate.h */,
 				33F210641B8EA24B00DCF26C /* AppDelegate.m */,
-				33F210661B8EA24B00DCF26C /* FirstViewController.h */,
-				33F210671B8EA24B00DCF26C /* FirstViewController.m */,
-				33F210691B8EA24B00DCF26C /* SecondViewController.h */,
-				33F2106A1B8EA24B00DCF26C /* SecondViewController.m */,
 				33F2106C1B8EA24B00DCF26C /* Main.storyboard */,
+				33F210911B8EA46F00DCF26C /* tabicons */,
 				33F2106F1B8EA24B00DCF26C /* Images.xcassets */,
 				33F210711B8EA24B00DCF26C /* LaunchScreen.xib */,
 				33F2105F1B8EA24B00DCF26C /* Supporting Files */,
+				33F210881B8EA3F500DCF26C /* HeiViewController.h */,
+				33F210891B8EA3F500DCF26C /* HeiViewController.m */,
+				33F2108B1B8EA42300DCF26C /* JiViewController.h */,
+				33F2108C1B8EA42300DCF26C /* JiViewController.m */,
+				33F2108E1B8EA43700DCF26C /* LiaoViewController.h */,
+				33F2108F1B8EA43700DCF26C /* LiaoViewController.m */,
 			);
 			path = TabNavigation;
 			sourceTree = "<group>";
@@ -122,6 +140,19 @@
 				33F2107D1B8EA24B00DCF26C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		33F210911B8EA46F00DCF26C /* tabicons */ = {
+			isa = PBXGroup;
+			children = (
+				33F210921B8EA46F00DCF26C /* hei.png */,
+				33F210931B8EA46F00DCF26C /* hei@2x.png */,
+				33F210941B8EA46F00DCF26C /* Ji.png */,
+				33F210951B8EA46F00DCF26C /* Ji@2x.png */,
+				33F210961B8EA46F00DCF26C /* Liao.png */,
+				33F210971B8EA46F00DCF26C /* Liao@2x.png */,
+			);
+			path = tabicons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,7 +235,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33F2109C1B8EA46F00DCF26C /* Liao.png in Resources */,
+				33F2109B1B8EA46F00DCF26C /* Ji@2x.png in Resources */,
+				33F2109A1B8EA46F00DCF26C /* Ji.png in Resources */,
+				33F210981B8EA46F00DCF26C /* hei.png in Resources */,
 				33F2106E1B8EA24B00DCF26C /* Main.storyboard in Resources */,
+				33F2109D1B8EA46F00DCF26C /* Liao@2x.png in Resources */,
+				33F210991B8EA46F00DCF26C /* hei@2x.png in Resources */,
 				33F210731B8EA24B00DCF26C /* LaunchScreen.xib in Resources */,
 				33F210701B8EA24B00DCF26C /* Images.xcassets in Resources */,
 			);
@@ -224,10 +261,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33F2106B1B8EA24B00DCF26C /* SecondViewController.m in Sources */,
 				33F210651B8EA24B00DCF26C /* AppDelegate.m in Sources */,
-				33F210681B8EA24B00DCF26C /* FirstViewController.m in Sources */,
 				33F210621B8EA24B00DCF26C /* main.m in Sources */,
+				33F2108A1B8EA3F500DCF26C /* HeiViewController.m in Sources */,
+				33F210901B8EA43700DCF26C /* LiaoViewController.m in Sources */,
+				33F2108D1B8EA42300DCF26C /* JiViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
