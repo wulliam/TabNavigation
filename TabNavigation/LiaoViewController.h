@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  LiaoViewController.h
 //  TabNavigation
 //
 //  Created by Winton Wu on 8/27/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
-
+@interface LiaoViewController : UIViewController
 
 @end
-

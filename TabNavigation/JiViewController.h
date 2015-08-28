@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  JiViewController.h
 //  TabNavigation
 //
 //  Created by Winton Wu on 8/27/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
-
+@interface JiViewController : UIViewController
 
 @end
-
